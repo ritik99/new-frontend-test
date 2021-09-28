@@ -1,0 +1,69 @@
+.lenderItemLineRightItem{
+    vertical-align: top;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.lenderItemLineRightItemHint{
+    padding-top: 0;
+    vertical-align: top;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    color: #7E828F;
+    line-height: 16px;
+    height: 16px;
+   
+}
+
+.lenderItemLineRightItemValue{
+    vertical-align: middle;
+    margin-top: 0;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212B4C;
+}
+
+
+.lenderItemLineRightItemValueBottom{
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #212B4C;
+}
+
+.lenderItemLineRightMagrin{
+    float: none;
+    height: auto;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+.lenderItemLineLeft{
+    
+    vertical-align: middle;
+}
+
+.lenderItemLineRightItemButton{
+    vertical-align: middle;
+    width: 95%;
+    height: 48px;
+    line-height: 48px;
+    background: linear-gradient(
+0deg
+, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #4E3300;
+    margin-top: 15px;
+}
+
+.borrowPoolStepModalLineMargin{
+    margin-top: 15px;
+}

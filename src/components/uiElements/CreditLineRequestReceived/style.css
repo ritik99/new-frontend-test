@@ -1,0 +1,52 @@
+.CreditLineRequestSentHeader{
+    padding: 20px 0;
+    width: 100%;
+}
+
+.CreditLineRequestSentHeaderLeft{
+    width: 65px;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+    border-radius: 50%;
+}
+
+.CreditLineRequestSentHeaderRight1{
+    margin-top: 4px;
+    text-align: left;
+    padding-left: 15px;
+    width: calc(100% - 65px);
+    font-size: 20px;
+    float: right;
+}
+.CreditLineRequestSentHeaderRight2{
+    text-align: left;
+    padding-left: 15px;
+    width: calc(100% - 65px);
+    font-size: 14px;
+
+    float: right;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.borrowPoolStepModalLineButtonWhite{
+   
+}
+
+.borrowPoolStepModalLineButtonWhite, .borrowPoolStepModalLineButtonOragne{
+    width: calc(50% - 8px);
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4E3300;
+    margin-top: 10px;
+}
+
+.borrowPoolStepModalLineButtonOragne{
+    margin-left: 16px;
+}

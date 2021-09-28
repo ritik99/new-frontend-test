@@ -1,0 +1,658 @@
+.pageModalOverlay{
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(43, 47, 85, 0.4);
+}
+
+.borrowPoolWindow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width: 460px;
+  
+
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+}
+
+.borrowPoolWindowHeader{
+    position: relative;
+    height: 76px;
+    line-height: 78px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ECF0F4;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.borrowPoolWindowHeaderButton{
+    user-select: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    right: 29px;
+    top: 32px;
+    position: absolute;
+
+    background-image: url(./images/close.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.borrowPoolStep{
+    text-align: center;
+    width: 100%;
+    padding: 31px;
+    padding-top: 20px;
+}
+
+.borrowPoolStepTitle1{
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    color: #131E40;
+
+}
+
+.borrowPoolStepTitle2{
+    margin-top: 15px;
+    width: 100%;
+    max-width: 322px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #7E828F;
+}
+
+.borrowPoolStepParagraph{
+    text-align: left;
+    margin-top: 18px;
+    width: 100%;
+    padding: 3px 18px;
+    padding-left: 35px;
+    background: #F4F6FA;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303755;
+}
+
+
+.borrowPoolStepParagraph ul li{
+    margin: 15px 0;
+}
+
+.borrowPoolStepButton{
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4E3300;
+    margin-top: 32px;
+}
+
+.borrowPoolAmountArea{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 16px;
+    height: 80px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F4;
+    border-radius: 4px;
+}
+
+.borrowPoolAmountAreaTitle{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+.borrowPoolAmountDropdown{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.borrowPoolAmountAreaField{
+    height: 50px;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.borrowPoolAmountAreaField::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    color: #A5ADC6;
+}
+
+.borrowPoolAmountDropdown{
+    padding-left: 22px;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: 5px;
+    width: 90px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.borrowPoolButtonsWrapper{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.borrowPoolSmallButton{
+    width: calc(50% - 8px);
+    cursor: pointer;
+    user-select: none;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.borrowPoolBackButton{
+    line-height: 52px;
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #F3F5F9;
+    margin-right: 16px;
+    color: #212B4C;
+}
+
+.borrowPoolNextButton{
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    color: #4E3300;
+}
+
+.borrowPoolStepHint{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #131E40;
+}
+
+.borrowPoolAssetDropdown{
+    margin-top: 7px;
+    margin-bottom: 16px;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F4;
+    border-radius: 4px;
+
+    padding-left: 48px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+
+    background-size: 20px 20px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+}
+
+.borrowPoolAmountAreaRight{
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.borrowPoolBadge{
+    cursor: default;
+    margin-top: 20px;
+    padding: 0 16px;
+    width: 100%;
+    
+    line-height: 48px;
+
+    background: #F4F6FA;
+    border-radius: 4px;
+}
+
+.borrowPoolBadgeHint{
+    vertical-align: middle;
+    float: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+.borrowPoolBadgeValue{
+    vertical-align: middle;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+
+}
+
+.borrowPoolLink{
+    cursor: pointer;
+    user-select: none;
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+    text-decoration-line: underline;
+}
+
+.borrowPoolSpacer{
+    width: 100%;
+    height: 2px;
+}
+
+.borrowPoolAmountAreaLink{
+    border: none;
+    margin-top: 0;
+    padding: 0 2px;
+    height: auto;
+}
+
+.borrowPoolSmallHint{
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+    margin-top: 24px;
+}
+
+.borrowPoolCheckboxLine{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.borrowPoolCheckboxWrapper{
+    padding: 12px 22px;
+    vertical-align: top;
+    width: calc(50% - 10px);
+    height: 95px;
+
+    background: #FFFFFF;
+
+
+    border: 1px solid #ECF0F4;
+    border-radius: 4px;
+}
+
+.borrowPoolCheckboxWrapper1{
+    margin-right: 20px;
+}
+
+.borrowPoolCheckbox{
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+}
+
+.borrowPoolCheckboxText{
+    text-align: left;
+    padding: 0;
+    vertical-align: top;
+    float: right;
+    width: calc(100% - 25px);
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+
+    color: #212B4C;
+}
+
+.borrowPoolGreyPad{
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px 20px;
+    background: #F4F6FA;
+    border-radius: 4px;
+}
+
+.borrowPoolGreyPadLine{
+    margin: 5px 0;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.borrowPoolGreyPadLineHint{
+
+    float: left;
+    font-weight: 400;
+    font-size: 13px;
+    color: #212B4C;
+}
+
+
+.borrowPoolGreyPadLineValue{
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    color: #212B4C;
+}
+
+
+.borrowPoolNoteWrapper{
+    padding: 16px;
+    width: 100%;
+    background: #FFFFFF;
+    height: 230px;
+    border: 1px solid #ECF0F4;
+    border-radius: 4px;
+}
+
+.borrowPoolNoteTitle{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+
+}
+
+.borrowPoolNoteTextArea{
+    outline: none;
+    border: none ;
+    width: 100%;
+    resize: none;
+    height: 150px;
+    margin-top: 10px;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A5ADC6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.borrowPoolNoteTextArea::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A5ADC6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pageModalCalendarOverlay{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background-color: rgba(43, 47, 85, 0.4);
+}
+
+.calendarWrapper{
+    text-align: center;
+    width: 90%;
+    max-width: 330px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #ffffff;
+    box-shadow: 0px 5px 5px rgba(70, 97, 138, 0.1);
+    border-radius: 4px;
+}
+
+.calendarWrapper .Calendar {
+    box-shadow: none;
+    min-height: 32em;
+}
+
+.calendarHint{
+    text-align: left;
+    width: 100%;
+    padding: 0 27px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+.Calendar__yearSelectorWrapper::before{
+    height: 0;
+}
+
+.Calendar__sectionWrapper{
+    min-height: 220px;
+}
+
+.calendatButtonsMainWrapper{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calendarButtonsNav{
+    vertical-align: top;
+    line-height: 36px;
+    font-size: 12px;
+    height: 36px;
+    width: 24px;
+    border: 1px solid #ECF0F4;
+    color: #131E40;
+}
+
+.calendarButtonsWrapper{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calendarButtonsWrapper2{
+    margin-top: 0;
+    border-radius: 0;
+    width: calc(100% - 48px);
+}
+
+.calendarButtonActive{
+    user-select: none;
+    cursor: pointer;
+    padding: 0 7px;
+    height: 36px;
+    width: 25%;
+    line-height: 36px;
+    background: #131E40;
+   
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+ 
+}
+.calendarButtonActive2{
+    width: 20%;
+}
+
+
+
+.calendarButton{
+    user-select: none;
+    cursor: pointer;
+    padding: 0 8px;
+    height: 36px;
+    width: 25%;
+    line-height: 34px;
+    border: 1px solid #ECF0F4;
+    
+    font-weight: 500;
+    font-size: 10px;
+    color: #131E40;
+}
+
+.calendarButton2{
+    user-select: none;
+    cursor: pointer;
+   width: 20%;
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid #ECF0F4;
+   
+    font-weight: 500;
+    font-size: 10px;
+    color: #131E40;
+}
+
+
+
+.calendarSetButton{
+    margin: 20px 0;
+    user-select: none;
+    cursor: pointer;
+    width: 90%;
+    max-width: 275px;
+    text-align: center;
+    height: 48px;
+    line-height: 44px;
+    border: 2px solid #ECF0F4;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.calendarButtonActiveLone{
+    vertical-align: top;
+    font-size:10px;
+}
+
+.calendarButtonLone{
+    vertical-align: top;
+    font-size: 10px;
+}
+
+.errorMessage {
+    color: #ba0d0d;
+    margin-bottom: 10px;
+}
+
+
+
+.pageModalOverlay5{
+    display: none;
+}
+
+.newCreateBorrowWindow{
+    overflow-y: auto;
+    text-align: center;
+    padding: 40px 80px;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.newCreateBorrowWindowTitle{
+    text-align: left;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #131E40;
+}
+
+.newCreateBorrowWindowLine{
+    text-align: left;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.newCreateBorrowWindowItem{
+    border-radius: 6px;
+    padding: 10px 20px;
+    vertical-align: top;
+    width: calc(25% - 25px);
+    margin-right: 25px;
+    background: #ffffff;
+    border: 1px solid #ECF0F4;
+}
+
+.newCreateBorrowWindowItemTitle{
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+
+
+
+.newCreateBorrowWindowBadge{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+    width: 100%;
+    background: #F4F6FA;
+}
+
+.newCreateBorrowWindowBadgeItem{
+    padding-right: 20px;
+    vertical-align: middle;
+    width: 25%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+.newCreateBorrowWindowBadgeItem span{
+    padding-left: 5px;
+    vertical-align: bottom;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.newCreateBorrowWindowWrapper{
+    text-align: center;
+    width: 100%;
+    max-width: 1460px;
+}
+
+.borrowPoolButtonsWrapperNew{
+    max-width: 600px;
+}

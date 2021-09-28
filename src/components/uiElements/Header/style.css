@@ -1,0 +1,164 @@
+.headerWrapper {
+    position: relative;
+    width: 90%;
+    height: 70px;
+    max-width: 1460px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ECF0F4;
+}
+
+.headerLogo{
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    left: 0;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 110px;
+    margin-top: 10px;
+    background-image: url(./images/headerLogo.png);
+    background-position: left;
+}
+
+.headerMenuItem{
+    padding: 0 20px;
+    margin: 0 5px;
+    position: relative;
+
+    cursor: pointer;
+    user-select: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    height: 71px;
+    line-height: 70px;
+    color: #A5ADC6;
+}
+
+
+.headerMenuItemActive{
+  
+    position: relative;
+    padding: 0 20px;
+    margin: 0 5px;
+
+    cursor: pointer;
+    user-select: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    height: 70px;
+    line-height: 70px;
+    color: #212B4C;
+
+    border-bottom: 2px solid #212B4C;
+}
+
+.headerVerifyButton{
+    
+    font-weight: 600;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    line-height: 36px;
+    border: 2px solid #ECF0F4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+
+.headerAddr{
+    user-select: none;
+    font-weight: 600;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    right: 144px;
+    top: 15px;
+}
+
+
+
+.headerSubMenu{
+    pointer-events: none;
+    opacity: 0;
+    padding: 0;
+    left: 0;
+    bottom: -118px;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #ECF0F4;
+    border-top: none;
+}
+
+.headerSubMenu2{
+    pointer-events: none;
+    opacity: 0;
+    padding: 0;
+    left: 0;
+    bottom: -178px;
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-color: #ffffff;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #ECF0F4;
+    border-top: none;
+}
+
+.headerSubMenuLine{
+    margin-top: 0;
+    vertical-align: top;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.headerSubMenuLine:hover{
+    background-color: #ECF0F4;
+    color: #212B4C;
+}
+
+.headerSubMenuLine2{
+    top: 60px;
+}
+
+.headerSubMenuLine3{
+    top: 120px;
+}
+
+.headerMenuItem2:hover .headerSubMenu{
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+.headerMenuItem3:hover .headerSubMenu{
+    pointer-events: all;
+    opacity: 1;
+}

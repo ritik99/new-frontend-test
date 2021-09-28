@@ -1,0 +1,604 @@
+body, #root{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1120px){
+    .headerMenu{
+        text-align: left;
+        margin-top: 70px;
+        width: 100%;
+    }
+    .headerLogo{
+        vertical-align: top;
+    }
+    .headerAddr{
+        display: none;
+    }
+    .headerMenuItem, .headerMenuItemActive{
+        padding: 0;
+
+    
+        margin: 0;
+        margin-left: 0;
+        margin-right: 14px;
+        font-size: 14px;
+    }
+    .header, .headerWrapper{
+        height: 140px;
+    }
+    .headerSubMenu{
+        width: 90px;
+    }
+    .headerSubMenuLine{
+        padding-left: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1000px){
+    .dashboardLeft{
+        width: 90%;
+        padding: 0;
+    }
+    .dashboardRight{
+        padding: 0 16px;
+        min-height: 0;
+    }
+    .dashboardRight{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 440px){
+    .dashboardCard2x{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 520px){
+    .dashboardCard3x{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 605px){
+   
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1310px){
+    
+    .poolCard2x{
+        width: 100%;
+    }
+
+    .tabItemActive, .tabItem{
+        margin-right: 10px;
+    }
+    .tabsAdditionalButtons{
+        width: calc(100% - 200px);
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 790px){
+    .footerMenuItem{
+        text-align: left;
+        width: 100%;
+    }
+    .footerLeft{
+        vertical-align: top;
+        width: calc(100% - 60px);
+    }
+    .footerRight{
+        vertical-align: top;
+        width: 60px;
+    }
+    .footerWrapper{
+        padding: 0 16px;
+    }
+    .footerSocialItem {
+        margin-left: 0;
+    }
+    .footerSocialItemTwitter{
+        margin-left: 16px;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 1205px){
+    .pageWrapperPadding{
+        padding: 0;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 670px){
+    .dashboardCard3x{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1045px){
+.tabsAdditionalButtonsWrapper1{
+    display: none;
+}
+.tabsAdditionalButtons{
+    margin-top: 14px;
+
+    text-align: left;
+    width: 100%;
+}
+.borrowTabButton{
+    margin-bottom: 6px;
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1300px){
+    .poolCard3x{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1295px){
+    .profileLelfPart{
+        width: 100%;
+        border: none;
+        height: auto;
+        padding-right: 0;
+    }
+    .profileRightPart{
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 810px){
+    .profileCard{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    .twitterModalWindow{
+        padding: 20px;
+    }
+    .borrowPoolStep{
+        padding: 14px;
+    }
+    .lendPoolStep{
+        padding: 14px;
+    }
+    .lendDetailsVoteModalPowerLeft{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .lendDetailsPoolStatus {
+        margin-left: 0;
+        padding: 0;
+        padding-top: 5px;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .lendDetailsOwnerLine{
+    }
+    .lendDetailsOwnerName{
+        font-size: 16px;
+    }
+    .lendDetailsOwnerUsername{
+        font-size: 13px;
+    }
+    .lendDetailsVoteModalLine1{
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 450px){
+    .poolCardUserPoolStatus, .poolCardUserPoolType{
+        font-size: 10px;
+    }
+    .borrowPoolStepModalAmountBottomLeft{
+        width: calc(100% - 120px);
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1120px){
+    .CreditLinesSaveLeft{
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .CreditLinesSaveRight{
+        margin-top: 30px;
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 620px){
+    .creditLinesTableTopItem {
+        padding: 0 4px;
+        font-size: 12px;
+    }
+    .creditLinesSaveItemLinePart{
+        padding: 0 5px;
+    }
+    .creditLinesSaveItemLinePart1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .creditLinesSaveItemLineIcon{
+        margin: 0 5px 3px 5px;
+    }
+    .creditLinesSaveItemLinePartHint{
+        font-size: 12px;
+    }
+    .creditLinesSaveItemLinePart{
+        font-size: 14px;
+    }
+   
+
+    .lendPoolWindowSmaller{
+        top: -54px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 565px){
+    .creditLinesAdditionalLineButton{
+        width: 100%;
+    }
+    .lendTabSearch{
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+        padding-left: 0;
+    }
+    .creditLinesAdditionalLineSpacer{
+        display: none;
+    }
+    .creditLinesTableTopItem, .creditLinesReceivedItemLinePart {
+        vertical-align: middle;
+        padding: 0 6px;
+        line-height: 16px;
+        font-size: 12px;
+    }
+    .creditLinesReceivedItemLine{
+        line-height: 56px;
+    }
+    .creditLinesTableTopItem9x{
+        padding: 0 5px;
+        font-size: 8px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1125px){
+    .creditLinesGrantedItemLinePartButton{
+        font-size: 10px;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1160px){
+    .borrowDetailsLeftPart{
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .borrowDetailsRightPart{
+        width: 90%;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .borrowDetailsRepayArea{
+        padding: 14px;
+    }
+    .borrowDetailsRepayAreaDescription{
+        font-size: 10px;
+    }
+
+    .borrowDetailsPoolLineHint{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 880px){
+    .lenderItemLineRightItemHint{
+        font-size: 10px;
+        height: auto;
+    }
+    .lenderItemLineRightItem{
+        padding: 0 4px;
+        vertical-align: top;
+    }
+    .lenderItemLineRightItemValue{
+        font-size: 12px;
+    }
+    .lenderItemLineName{
+        font-size: 12px;
+    }
+    .lenderItemLineUsername{
+        font-size: 12px;
+    }
+    .lenderItemLineRightItemButton {
+        line-height: 48px;
+    }
+    .lenderItemLineLeft{
+        width: 100px;
+    }
+    .lenderItemLineIcon{
+        display: none;
+    }
+    .lenderItemLineRight {
+        width: calc(100% - 100px);
+    }
+    .lenderItemLineRightItemValueBottom{
+        font-size: 12px;
+    }
+    .lenderItemLineRightItemValue{
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 550px){
+    .pageTitleLenders{
+        margin-top: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 460px){
+
+    .borrowDetailsPoolLineButton{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .borrowDetailsPoolDate{
+        font-size: 10px;
+    }
+    .borrowDetailsPoolStatus {
+        font-size: 9px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1205px){
+    .lendDetailsLeftPart{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .lendDetailsRightPart{
+        padding: 10px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .lendDetailsPoolLineHint{
+        font-size: 12px;
+    }
+    .lendDetailsPoolLineValue{
+        font-size: 14px;
+    }
+    .lendDetailsOwnerIcon{
+        width: 50px;
+        height: 50px;
+    }
+    .lendDetailsOwnerName{
+        margin-top: 0;
+        line-height: 20px;
+    }
+    .lendDetailsOwnerUsername{
+        line-height: 12px;
+    }
+    .lendDetailsPoolStatus {
+        margin-top: 6px;
+    }
+    .lendDetailsOwnerLineRight{
+       
+    }
+    .lendDetailsOwnerLine{
+        height: auto;
+        padding-bottom: 45px;
+    }
+    .lendDetailsPoolDate{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 675px){
+    .lendDetailsVoteAreaLeft{
+        text-align: center;
+        width: 100%;
+    }
+    .lendDetailsVoteAreaRight, .lendDetailsVoteAreaRightLeft, .lendDetailsVoteAreaRightRight{
+        width: 100%;
+    }
+    .lendDetailsVoteAreaRightLeftStatusLineOuter{
+        max-width: none;
+    }
+    .lendDetailsVoteAreaRightRightButton {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .lendDetailsPoolLineValue {
+        margin-top: -2px;
+        font-size: 12px;
+        vertical-align: middle;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 820px){
+    .CreditLinesGrantedSubpageTopLineLeft, .CreditLinesGrantedSubpageTopLineRight{
+        width: 100%;
+
+    }
+    .CreditLinesGrantedSubpageTopLineLeft{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 645px){
+    .CreditLinesGrantedSubpageButton {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 560px){
+    .twitterModalWrapper, .pageModalOverlay{
+        background-color: white;
+    }
+    .borrowPoolWindow, .borrowPoolWindowHeader, .lendPoolWindow{
+        border: none;
+    }
+    .borrowPoolWindow{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    .sendCreditLineModalHint{
+        font-size: 12px;
+    }
+    .lendPoolWindowSmaller{
+        transform: none;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        top: 0;
+    }
+    .borrowPoolGreyPadLineHint{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 835px){
+    .creditLinesTable{
+        width: 100%;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .creditLinesTableTop, .creditLinesGrantedItemLine, .lenderItemLineWrapperMc, .creditLinesReceivedItemLine, .creditLinesSaveItemLine {
+        min-width: 800px;
+    }
+    .lenderItemLineMc{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .creditLinesSaveItemLineIcon{
+        margin: 10px;
+    }
+    .CreditLinesSaveRight{
+        height: auto;
+        min-height: 0;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 1135px){
+.creditLinesPageGrantedLeft{
+    width: 100%;
+}
+.creditLinesPageGrantedRight{
+    margin: 0;
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 720px){
+    .dashboardCard4xGranted{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1220px){
+.newCreateBorrowWindowItem{
+    width: calc(50% - 25px);
+    margin-bottom: 25px;
+}
+.newCreateBorrowWindowItemBig{
+    width: calc(100% - 25px);
+    margin-right: 0;
+}
+}
+@media only screen and (min-width: 0px) and (max-width: 970px){
+    .newCreateBorrowWindowItem{
+        width: calc(50% - 25px);
+        margin-bottom: 25px;
+    }
+    .newCreateBorrowWindow{
+        padding: 20px;
+    }
+    .newCreateBorrowWindowItemBig{
+        width: calc(100% - 25px);
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px){
+    .newCreateBorrowWindowItem{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .newCreateBorrowWindow{
+      
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1250px){
+.newCreateBorrowWindowBadgeItem{
+    padding: 10px 0;
+    width: 50%;
+    text-align: left;
+    
+}
+.newCreateBorrowWindowBadge{
+    margin-top: 0px;
+}
+ }
+
+ @media only screen and (min-width: 0px) and (max-width: 650px){
+    .newCreateBorrowWindowBadgeItem{
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+    }
+     }

@@ -1,0 +1,62 @@
+.poolHistoryItem{
+    width: 100%;
+    height: 80px;
+
+}
+
+.poolHistoryItemStatusWrapper{
+    float: left;
+    width: 30px;
+    height: 100%;
+    position: relative;
+}
+
+.poolHistoryItemStatusLine{
+    position: absolute;
+    left: 6px;
+    top: 0;
+    width: 4px;
+    height: 80px;
+    background: #ECF0F4;
+}
+
+
+.poolHistoryItem:last-child .poolHistoryItemStatusLine{
+    height: 0;
+}
+
+.poolHistoryItemStatusDot{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: #ECF0F4;
+}
+
+.poolHistoryItemTitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #303755;
+    text-align: left;
+    width: calc(100% - 30px);
+    float: right;
+}
+
+.poolHistoryItemDate{
+    margin-top: 10px;
+    text-align: left;
+    width: calc(100% - 30px);
+    float: right;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+
+
+    color: #A5ADC6;
+}

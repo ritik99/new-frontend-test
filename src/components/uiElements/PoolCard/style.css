@@ -1,0 +1,258 @@
+.poolCard {
+    margin-bottom: 16px;
+    background: pink;
+    padding: 24px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 14px rgba(132, 132, 132, 0.1);
+    border-radius: 6px;
+}
+
+.poolCard2x {
+    width: calc(50% - 8px);
+    margin-right: 16px;
+}
+
+.poolCard2x:nth-child(2n){
+    margin-right: 0;
+}
+
+.poolCard3x {
+    width: calc(33.333% - 10.666px);
+    margin-right: 16px;
+}
+
+.poolCard3x:nth-child(3n){
+    margin-right: 0;
+}
+
+.poolCardUserLine{
+    padding: 18px 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.poolCardUserAvatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.05);
+    float: left;
+}
+
+.poolCardUserName{
+    padding-left: 16px;
+    width: calc(100% - 72px);
+    text-align: left;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    color: #131E40;
+    float: right;
+}
+
+.poolCardUserUsername{
+    padding-left: 16px;
+    width: calc(100% - 72px);
+    text-align: left;
+    float: right;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #A5ADC6;
+}
+
+.poolCardUserPoolDetails{
+    margin-top: 5px;
+    padding-left: 16px;
+    width: calc(100% - 72px);
+    height: 22px;
+    text-align: left;
+    float: right;
+}
+
+.poolCardUserPoolType{
+    padding: 0px 12px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #212B4C;
+    background: #EFEFEF;
+    border-radius: 4px;
+}
+
+.poolCardUserPoolStatus{
+    margin-left: 8px;
+    padding: 0px 12px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #212B4C;
+    background: #EFEFEF;
+    border-radius: 4px;
+}
+
+.poolCardUserPoolStatusClosed{
+    line-height: 20px;
+    color: #A5ADC6;
+    background: transparent;
+    border: 1px solid #d7d9e1;
+}
+
+.poolCardUserPoolStatusGrace{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.poolCardUserPoolStatusDefaulted{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.poolCardUserPoolStatusCancelled{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.poolCardUserPoolStatusTerminated{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.poolCardUserPoolStatusActive{
+    color: #0DBA76;
+    background: #E5F4E8;
+}
+
+.poolCardUserPoolStatusCollecting{
+    color: #D6AA24;
+    background: #FFF6D9;
+}
+
+.poolCardLine{
+    width: 100%;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.poolCardLineHint{
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #61709F;
+}
+
+.poolCardLineValue{
+    float: right;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.poolCardProgressLine{
+    width: 50px;
+    height: 7px;
+    border-radius: 5px;
+    background: #ECF0F4;
+    vertical-align: middle;
+    margin-left: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.poolCardProgressLineInner{
+    vertical-align: top;
+    background: #59C891;
+    width: 10%;
+    height: 7px;
+}
+
+.poolCardButton{
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.poolCardButtonActive{
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #F3F5F9;
+    color: #303755;
+    line-height: 44px;
+}
+
+.poolCardButtonRepay{
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;  
+    color: #4E3300;
+}
+
+
+.poolCardButtonAdd{
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #F3F5F9;
+    color: #303755;
+    line-height: 44px;
+}
+
+.poolCardButtonView{
+    background: #FFFFFF;
+    border: 2px solid #ECF0F4;
+    color: #212B4C;
+    line-height: 44px;
+}
+
+
+.poolCardLineValueLent{
+    color: #5F5FE2;
+    background: #E2E2F4;
+    border-radius: 4px;
+    padding: 2px 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.poolCardButtonLend{
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #F3F5F9;
+    color: #303755;
+    line-height: 44px;
+}
+
+.poolCardLineValueProfitGreen{
+    color: #59C891;
+}
+
+.poolCardLineValueProfitRed{
+    color: #F95B72;
+}
+
+
+.poolCardButtonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.poolCardButtonHalf{
+    width: calc(50% - 8px);
+}
+
+.expireMessage{
+    color: blue;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 12px;
+}

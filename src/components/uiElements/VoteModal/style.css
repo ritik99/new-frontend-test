@@ -1,0 +1,452 @@
+.pageModalOverlay{
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(43, 47, 85, 0.4);
+}
+
+.lendPoolWindow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width: 460px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+}
+
+.lendPoolWindowHeader{
+    position: relative;
+    height: 76px;
+    line-height: 78px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ECF0F4;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.lendPoolWindowHeaderButton{
+    user-select: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    right: 29px;
+    top: 32px;
+    position: absolute;
+
+    background-image: url(./images/close.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lendPoolStep{
+    text-align: center;
+    width: 100%;
+    padding: 31px;
+    padding-top: 20px;
+}
+
+.lendDetailsOwnerLineModal{
+
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ECF0F4;
+}
+
+.lendDetailsOwnerLineLeft{
+    float: left;
+
+}
+
+.lendDetailsOwnerLineLeft{
+    height: 72px;
+    width: 210px
+}
+
+.lendDetailsOwnerIcon{
+    float:left;
+    height: 72px;
+    width: 72px;
+
+    background-image: url(./images/userIcon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lendDetailsOwnerName{
+    margin-top: 7px;
+    margin-left: 16px;
+    display: block;
+    float: left;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    height: 28px;
+    color: #303755;
+}
+
+.lendDetailsOwnerUsername{
+    margin-left: 16px;
+    display: block;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5ADC6;
+}
+
+.lendDetailsOwnerLineRight{
+    text-align: right;
+    float: right;
+    height: 72px;
+    width: calc(100% - 210px);
+}
+
+.lendDetailsPoolStatus{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+   
+}
+
+
+.lendDetailsPoolStatusRed{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.lendDetailsPoolStatusOrange{
+    background: #FFF6D9;
+    color: #D6AA24;
+}
+
+.lendDetailsPoolStatusGrey{
+    background: #EFEFEF;
+    color: #212B4C;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+
+.lendDetailsPoolDate{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5ADC6;
+}
+
+.lendPoolStepModalLine{
+    width: 100%;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #F3F4F7;;
+
+}
+
+.lendPoolStepModalLineHint{
+    float: left;
+    font-weight: normal;
+    font-size: 16px;
+    color: #61709F;
+}
+
+.lendPoolStepModalLineValue{
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.lendPoolStepModalLine2{
+    margin-top: 16px;
+    border-bottom: none;
+}
+
+.lendPoolStepHint{
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #131E40;
+}
+
+.lendPoolStepModalAmount{
+    width: 100%;
+    border: 1px solid #ECF0F4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px rgba(19, 59, 106, 0.1);
+    border-radius: 4px;
+    padding: 14px;
+    margin-top: 10px;
+}
+
+.lendPoolStepModalAmountTop{
+    width: 100%;
+}
+
+.lendPoolStepModalAmountTopLeft{
+    text-align: left;
+    float: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #61709F;
+}
+
+.lendPoolStepModalAmountTopRight{
+    text-align: right;
+    float: right;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration-line: underline;
+
+    color: #1E1E1E;
+}
+
+.lendPoolStepModalAmountBottom{
+    width: 100%;
+}
+
+.lendPoolStepModalAmountBottomLeft{
+    float: left;
+}
+
+.lendPoolStepModalAmountBottomLeftField{
+    text-align: left;
+    outline: none;
+    border: none;
+    float: left;
+    width: 200px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #A5ADC6;
+    margin-top: 5px;
+}
+
+.lendPoolStepModalAmountBottomRight{
+    float: right;
+}
+
+.lendPoolAmountDropdown{
+    padding-left: 22px;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: 5px;
+    width: 90px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.lendPoolStepModalLineButton{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4E3300;
+    margin-top: 10px;
+}
+
+.lendPoolStepModalLine3{
+    margin-top: 0;
+}
+
+.lendPoolGreyPad{
+    margin-top: 24px;
+    width: 100%;
+    padding: 10px 20px;
+    background: #F4F6FA;
+    border-radius: 4px;
+}
+
+.lendPoolGreyPadLine{
+    margin: 5px 0;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.lendPoolGreyPadLineHint{
+
+    float: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212B4C;
+}
+
+
+.lendPoolGreyPadLineValue{
+    float: right;
+    font-weight: 500;
+    font-size: 15px;
+    color: #212B4C;
+}
+
+.borrowPoolStepModalLine3{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.lendDetailsPoolLineUserLended{
+    margin-top: 24px;
+    padding: 36px 0 0 0;
+    width: 100%;
+    border-top: 1px solid #ECF0F4;
+}
+
+.lendDetailsPoolLineValuePurple{
+    color: #5F5FE2;
+    background: #E2E2F4;
+    padding: 3px 12px;
+    border-radius: 4px;
+}
+
+.lendDetailsPoolLineValueGreen{
+    color: #59C891;
+    padding: 3px 12px;
+    border-radius: 4px;
+    background: #E5F4E8;
+}
+
+.lendDetailsPoolLineValueUnderline{
+    text-decoration: underline;
+}
+
+
+.lendDetailsVoteModalLine1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #303755;
+    text-align: left;
+}
+
+.lendDetailsVoteModalPower{
+
+    margin-top: 24px;
+    padding: 14px 16px;
+    width: 100%;
+    border: 1px solid #ECF0F4;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.lendDetailsVoteModalPowerLeft{
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: #303755;
+}
+
+.lendDetailsVoteModalPowerRight{
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    color: #303755;
+}
+
+
+.lendDetailsVoteModalItem{
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #ECF0F4;
+    border-radius: 4px;
+    padding: 14px;
+    padding-right: 0;
+}
+
+.lendDetailsVoteModalItemLeft{
+    float: left;
+    width: calc(100% - 65px);
+    padding-right: 30px;
+    height: 45px;
+    
+}
+
+.lendDetailsVoteModalItemLeftTop{
+    width: 100%;
+}
+
+.lendDetailsVoteModalItemLeftTopLeft{
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+    color: #212B4C;
+}
+
+.lendDetailsVoteModalItemLeftTopRight{
+    font-weight: 600;
+    font-size: 16px;
+    float: right;
+    color: #212B4C;
+}
+
+
+.lendDetailsVoteModalItemLeftBottom{
+    font-size: 0;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 5px;
+    height: 6px;
+}
+
+.lendDetailsVoteModalItemLeftBottomOuter{
+    background: #ECEFF4;
+    border-radius: 71px;
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.lendDetailsVoteModalItemLeftBottomInner{
+    
+    border-radius: 28px;
+    vertical-align: top;
+    height: 6px;
+}
+
+.lendDetailsVoteModalItemLeftBottomInnerGreen{
+    background: #61C77D;
+}
+
+.lendDetailsVoteModalItemRight{
+    width: 65px;
+    height: 45px;
+    border-left: 1px solid #ECF0F4;
+}
+
+.lendDetailsVoteModalItemRight{
+    text-align: center;
+    line-height: 45px;
+}

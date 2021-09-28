@@ -1,0 +1,75 @@
+.sendCreditLineModalAddr{
+    text-align: left;
+    border: 1px solid #ECF0F4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 13px 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sendCreditLineModalAddrHint{
+    width: 100%;
+    font-weight: 500;
+font-size: 14px;
+color: #61709F;
+}
+
+.sendCreditLineModalAddrInput{
+    margin-top: 6px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #A5ADC6;
+}
+
+.sendCreditLineModalAddrInput::placeholder{
+    color: #A5ADC6;
+}
+
+.sendCreditLineModalLinesWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sendCreditLineModalWrapper{
+    text-align: left;
+    width: 48%;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+
+
+.sendCreditLineModalHint{
+    margin-bottom: 3px;
+    width: 100%;
+    font-weight: 500;
+font-size: 14px;
+color: #131E40;
+}
+
+.sendCreditLineModalInput{
+    outline: none;
+    padding: 0 16px;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    border: 1px solid #ECF0F4;
+box-sizing: border-box;
+border-radius: 4px;
+font-size: 16px;
+}
+
+
+.sendCreditLineModalWrapperBig{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,28 @@
+.pageModalOverlayMain{
+    z-index: 99999999;
+}
+
+.borrowPoolWindowClosing{
+    max-width: 420px;
+}
+.closingButtons{
+    width: 100%;
+}
+
+.closingButtons{
+    padding: 20px 0;
+  width: 100%;
+}
+
+.closingButton{
+    font-weight: 500;
+    border-radius: 12px;
+    margin: 0 10px;
+    width: 50%;
+    max-width: 150px;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,30 @@
+.dashboardTabsLine{
+     width: 100%;
+     text-align: left;
+}
+
+.dashboardLeft{
+     vertical-align: top;
+     width: calc(100% - 440px);
+     padding-left: 100px;
+     padding-right: 40px;
+}
+
+.dashboardRight{
+     vertical-align: top;
+     width: 440px;
+     padding: 0 40px;
+     min-height: 100vh;
+
+     background: linear-gradient(180deg, #f9fafc 0%, #FFFFFF 100%);
+}
+
+.importantCounter {
+     vertical-align: middle;
+     font-weight: 400;
+     font-size: 16px;
+     color: #212B4C;
+     opacity: 0.5;
+     margin-left: 8px;
+}
+

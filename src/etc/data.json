@@ -1,0 +1,388 @@
+{
+    "borrowData" : [
+        {
+            "id": 1,
+            "value": "$200",
+            "txt": "Total borrowed amount"
+        },
+        {
+            "id": 3,
+            "value": "12",
+            "txt": "Total borrow rate"
+        },
+        {
+            "id": 4,
+            "value": "14",
+            "txt": "Total lending rate"
+        }
+    ],
+    "depositData": [
+        {
+            "id": 1,
+            "value": "$0",
+            "txt": "Deposited"
+        },
+        {
+            "id": 2,
+            "value": "$0",
+            "txt": "Interest Earned"
+        },
+        {
+            "id": 3,
+            "value": "6%",
+            "txt": "Interest Rate"
+        }
+    ],
+    "creditData" : [
+        {
+            "id": 1,
+            "value": "$0",
+            "txt": "Credit Granted"
+        },
+        {
+            "id": 2,
+            "value": "$0",
+            "txt": "Active Credit"
+        },
+        {
+            "id": 3,
+            "value": "0",
+            "txt": "Interest Accrued"
+        },
+        {
+            "id": 4,
+            "value": "6%",
+            "txt": "Interest Rate"
+        }
+    ],
+    "addCollateralModal" : {
+        "borrowAmount" : 0,
+        "lockedCollateral" : 0,
+        "newLockedCollateral" : 0
+
+    },
+    "repayModal" : {
+        "interestDueInterval" : "200 DOT",
+        "interestRepaymentLeft" : "700.34 DOT",
+        "repayAsset": "dai",
+        "newBalanceOwed" : "500.34 DOT"
+    },
+    "lendModal" : {
+        "name": "name",
+        "username": "username",
+        "poolStatus": "status",
+        "lendRate" : "20",
+        "maximumLend" : "100",
+        "maxAmount": "130",
+        "asset": "asset",
+        "totalReturn": "300",
+        "interest" : "20",
+        "repayment": "65",
+        "frequency": "0d 0h 0m",
+        "estimatedLoanEndDate" : "12/12/2012"
+    },
+    "borrowPools" : [
+        {
+            "poolStatus" : "Active",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "nextPayment" : "nextPayment",
+            "progressAndPayment" : 40
+        },
+        {
+            "poolStatus" : "Grace Period",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "nextPayment" : "nextPayment",
+            "progressAndPayment" : 40
+        },
+        {
+            "poolStatus" : "Collecting",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "progressAndPayment" : 40,
+            "endsDate" : "12/12/2012"
+        },
+        {
+            "poolStatus" : "Closed",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "progressAndPayment" : 40,
+            "endsDate" : "12/12/2012"
+        },
+        {
+            "poolStatus" : "Defaulted",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "progressAndPayment" : 40,
+            "endsDate" : "12/12/2012"
+        },
+        {
+            "poolStatus" : "Cancelled",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "progressAndPayment" : 40,
+            "endsDate" : "12/12/2012"
+        },
+        {
+            "poolStatus" : "Terminated",
+            "name":"name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowRate" : "borrowRate",
+            "borrowedAmount" : "borrowedAmount",
+            "progressAndPayment" : 40,
+            "endsDate" : "12/12/2012"
+        }
+    ],
+    "lendPools": [
+        {
+            "poolStatus":"Active",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowed":"borrowed",
+            "repaymentProgress": 30,
+            "lent":"lent",
+            "estimatedEndDate" : "12/12/2012"
+        },
+        {
+            "poolStatus":"Collecting",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "borrowing":"borrowing",
+            "lockedCollateral": "lockedCollateral",
+            "collectionProgress":50,
+            "lent" : "lent",
+            "participating" : false,
+            "borrowRate":"borrowRate"
+        },
+        {
+            "poolStatus":"Closed",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "repaymentProgress":40,
+            "profit": 34,
+            "lent" : "lent",
+            "endedOn":"12/12/2012"
+        },
+        {
+            "poolStatus":"Defaulted",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "repaymentProgress":40,
+            "profit": 34,
+            "lent" : "lent",
+            "endedOn":"12/12/2012"
+        },
+        {
+            "poolStatus":"Cancelled",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "repaymentProgress":40,
+            "profit": 34,
+            "lent" : "lent",
+            "endedOn":"12/12/2012"
+        },
+        {
+            "poolStatus":"Terminated",
+            "name" : "name",
+            "username":"username",
+            "poolType":"poolType",
+            "repaymentProgress":40,
+            "profit": 34,
+            "lent" : "lent",
+            "endedOn":"12/12/2012"
+        }
+    ],
+    "voteData" : [
+        {
+            "title":"title",
+            "username":"username",
+            "date":"12/12/2012"
+        }
+    ],
+    "voteModal": {
+        "name":"name",
+        "username":"username",
+        "status":"status",
+        "dateUntil":"12/12/2012",
+        "votingPower": "(5%) 548,749.84",
+        "quorum" : "23%",
+        "needed" : "33%",
+        "for" : "(80%) 757,203",
+        "progress" : 20
+    },
+    "profile" : {
+        "address":"address"
+
+    },
+    "lenderItem" : [{
+        "name":"name",
+        "username":"username",
+        "percent":"(5%)"
+    },
+    {
+        "name":"name",
+        "username":"username",
+        "percent":"(5%)"
+    }],
+    "borrowPoolDetailsGrace": {
+        "name":"name",
+        "username":"username",
+        "status" : "Grace Period",
+        "createdDate":"Aug 3, 2020",
+        "repaymentEnds" : "3 Aug, 2020 at 12:34pm",
+        "borrowingRate" : "10%",
+        "borrowedAmount" : "1,000 DOT",
+        "lockedCollateral" : "(20%) 200 DOT",
+        "remainingLoanPeriod" : "12 weeks",
+        "repaymentProgress" : "34",
+        "nextRepayment" : "200 DOT",
+        "nextRepaymentDate" : "30th Jan 2021"
+    },
+    "marginCall": [
+        {
+            "lenderName": "Dean Elgen",
+            "lenderUsername": "@gauntlet",
+            "amountLentDai": "100,000",
+            "amountLentUsd": "50,000",
+            "collateralAmountWbtc": "1",
+            "collateralAmountUsd": "50,000",
+            "collateralRaio":"50%" 
+        }
+    ],
+    "poolHistory":{
+        "value":"Pool has been created",
+        "date" : "July 19, 2020 2:09"
+    },
+    "borrowPoolDetailsCollecting":{
+        "name":"name",
+        "username":"username",
+        "createdDate": "Aug 3, 2020",
+        "borrowRate":"borrowRate",
+        "borrowedAmount":"borrowedAmount",
+        "collateralAmount":"collateralAmount",
+        "loanPeriod":"loanPeriod",
+        "repaymentFrequency":"repaymentFrequency",
+        "collectionProgress":"collectionProgress",
+        "collectionEnds":"collectionEnds",
+        "status": "Collecting",
+        "type": "Open Borrow"
+    },
+    "lendPoolDetailsCollecting":{
+        "name":"name",
+        "username":"username",
+        "publishedDate":"publishedDate",
+        "borrowRate":"borrowRate",
+        "borrowedAmount":"borrowedAmount",
+        "lockedCollateral":"lockedCollateral",
+        "loanPeriod":"loanPeriod",
+        "repaymentFrequency":"repaymentFrequency",
+        "collectionProgress":"collectionProgress",
+        "collectionEnds":"collectionEnds",
+        "etherscanLink" : "https://etherscan.io/"
+
+    },
+    "lendPoolDetailsGrace":{
+        "name":"name",
+        "username":"username",
+        "publishedDate":"publishedDate",
+        "status": "Grace Period",
+        "type": "Open Borrow",
+        "borrowingRate":"borrowingRate",
+        "borrowedAmount":"borrowedAmount",
+        "lockedCollateral":"lockedCollateral",
+        "remainingLoadPeriod":"remainingLoadPeriod",
+        "nextRepayment" : "nextRepayment",
+        "nextRepaymentDate":"nextRepaymentDate",
+        "youLent" : "youLent",
+        "repayment":"repayment",
+        "repaymentProgress":"repaymentProgress",
+        "availableToWithdraw":"availableToWithdraw"
+    },
+    "creditLinesReceived" : {
+            "address":"address",
+            "borrowLimit":"borrowLimit",
+            "collateralAsset":"collateralAsset",
+            "interestRate":"interestRate",
+            "collateralRatio":"collateralRatio",
+            "liquidationThreshold":"liquidationThreshold"
+    },
+    "creditLineGrantedSubpage": {
+        "currentDebt": "45 ETH",
+        "currentDebtValue": "$5000",
+        "principal" : "45 ETH",
+        "principalValue":"$5000",
+        "interestAccured": "10 ETH",
+        "interestAccuredValue": "$5000",
+        "currentCollateralRatio": "45%",
+        "name":"name",
+        "address":"address",
+        "creditLimit":"creditLimit",
+        "interestRate":"interestRate",
+        "idealCollateralRatio":"idealCollateralRatio",
+        "collateralAsset":"collateralAsset",
+        "liquidationThreshold":"liquidationThreshold",
+        "autoLiquidate":"autoLiquidate"
+    },
+    "creditLineReceivedSubpage": {
+        "currentDebt": "45 ETH",
+        "currentDebtValue": "$5000",
+        "principal" : "45 ETH",
+        "principalValue":"$5000",
+        "interestAccured": "10 ETH",
+        "interestAccuredValue": "$5000",
+        "currentCollateralRatio": "45%",
+        "name":"name",
+        "address":"address",
+        "creditLimit":"creditLimit",
+        "interestRate":"interestRate",
+        "idealCollateralRatio":"idealCollateralRatio",
+        "collateralAsset":"collateralAsset",
+        "liquidationThreshold":"liquidationThreshold",
+        "autoLiquidate":"autoLiquidate"
+    },
+    "creditLineHistory": [
+        {
+            "title":"title",
+            "description":"description",
+            "value":"value"
+        },
+        {
+            "title":"title",
+            "description":"description",
+            "value":"value"
+        },
+        {
+            "title":"title",
+            "description":"description",
+            "value":"value"
+        }
+    ]
+
+
+    
+}

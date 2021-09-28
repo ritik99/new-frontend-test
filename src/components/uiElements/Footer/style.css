@@ -1,0 +1,47 @@
+.footer{
+    padding: 24px 0;
+    width: 100%;
+    border-top: 1px solid #ECEFF1;
+}
+
+.footerWrapper{
+    padding: 0 100px;
+}
+
+.footerLeft{
+    float: left;
+}
+
+.footerRight{
+    float: right;
+}
+
+.footerMenuItem{
+    user-select: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5ADC6;
+    margin-right: 16px;
+}
+
+.footerSocialItem{
+    user-select: none;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: 19px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footerSocialItemDiscord{
+    background-image: url(./images/discord.png);
+}
+
+.footerSocialItemTwitter{
+    background-image: url(./images/twitter.png);
+}

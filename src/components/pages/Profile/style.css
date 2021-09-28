@@ -1,0 +1,155 @@
+.profileLelfPart{
+    padding-right: 18px;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 53px;
+    width: 325px;
+    height: 600px;
+    border-right: 1px solid #EFEFEF;
+}
+
+.profileLelfPartLine{
+    width: 100%;
+}
+
+.profileLelfPartLine1{
+    padding-left: 18px;
+}
+
+.profileUserIcon{
+    position: relative;
+    vertical-align: top;
+    width: 72px;
+    height: 72px;
+    background-image: url(./images/userIcon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.profileUserVerifiedBadge{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    width: 21px;
+    height: 21px;
+    background-image: url(./images/verifiedBadge.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profileUserAddress{
+    padding-left: 13px;
+    vertical-align: top;
+    height: 72px;
+    line-height: 72px;
+    width: calc(100% - 72px);
+
+    font-weight: 600;
+    font-size: 19px;
+    color: #303755;
+
+}
+
+
+.twitterVerified{
+    padding: 0 18px;
+    margin-top: 31px;
+    width: 100%;
+    height: 71px;
+    background: #F9FAFC;
+    border: 1px solid #ECF0F4;
+    border-radius: 6px;
+}
+
+
+.twitterVerifiedLelft{
+    font-size: 0;
+    float: left;
+    width: calc(100% - 81px);
+}
+
+
+.twitterVerifiedLine1{
+    vertical-align: top;
+    height: 34px;
+    line-height: 48px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    color: #303755;
+}
+
+.twitterVerifiedLine2{
+    height: 34px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #61709F;
+    opacity: 0.5;
+}
+
+
+.twitterVerifiedLineButton{
+    user-select: none;
+    cursor: pointer;
+    vertical-align: top;
+    float: right;
+    width: 80px;
+    height: 69px;
+    line-height: 69px;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #303755;
+}
+
+
+.profileRightPart{
+    text-align: left;
+    padding-left: 46px;
+    vertical-align: top;
+    margin-top: 53px;
+    width: calc(100% - 325px);
+}
+
+.profilePageTitle{
+    margin-bottom: 16px;
+    margin-top:17px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    color: #131E40;
+}
+
+
+.profileCard{
+    padding: 24px;
+    height: 94px;
+    width: calc(25% - 12px);
+    background: #F9FAFC;
+
+    border: 1px solid #ECF0F4;
+    border-radius: 6px;
+  }
+
+  .profileCardValue{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #303755;
+  }
+
+  .profileCardHint{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #A5ADC6;
+  }

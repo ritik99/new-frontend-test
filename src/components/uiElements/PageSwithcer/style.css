@@ -1,0 +1,42 @@
+.pageSwitcherWrapper{
+    width: 100%;
+    padding: 26px 0 50px 0;
+    text-align: center;
+}
+
+.pageSwitcherLeft, .pageSwitcherRight{
+    margin: 0 5px;
+    text-align: center;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    background: #f7f6f6;
+    border-radius: 4px;
+    color: #b1b5c0;
+}
+
+.pageSwitcherItem{
+    transition: 0.5s;
+    font-weight: 500;
+    margin: 0 5px;
+    text-align: center;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    background: #EFEFEF;
+    border-radius: 4px;
+    color: #b1b5c0;
+}
+
+.pageSwitcherItemActive{
+    font-weight: 600;
+    margin: 0 5px;
+    text-align: center;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    background: #EFEFEF;
+    border-radius: 4px;
+    background: #FFD85F;
+    color: #4E3300;
+}

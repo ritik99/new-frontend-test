@@ -1,0 +1,288 @@
+.borrowDetailsRightPart{
+    vertical-align: top;
+    width: 500px;
+    background: linear-gradient(180deg, #F9FAFC 15.84%, #FFFFFF 68.86%);
+    padding: 32px 40px;
+}
+
+.borrowDetailsLeftPart{
+    padding-left: 100px;
+    padding-right: 55px;
+    padding-top: 35px;
+    vertical-align: top;
+    width: calc(100% - 500px);
+   
+}
+
+.borrowDetailsBackLine{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.borrowDetailsBackLineIcon{
+    margin-right: 9px;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background-image: url(./images/back.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.borrowDetailsOwnerLine{
+    margin-top: 30px;
+    width: 100%;
+    height: 96px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ECF0F4;;
+}
+
+.borrowDetailsOwnerLineLeft{
+    float: left;
+
+}
+
+.borrowDetailsOwnerLineLeft{
+    height: 72px;
+    width: 210px
+}
+
+.borrowDetailsOwnerIcon{
+    float:left;
+    height: 72px;
+    width: 72px;
+
+    background-image: url(./images/userIcon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.borrowDetailsOwnerName{
+    margin-top: 7px;
+    margin-left: 16px;
+    display: block;
+    float: left;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    height: 28px;
+    color: #303755;
+}
+
+.borrowDetailsOwnerUsername{
+    margin-left: 16px;
+    display: block;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5ADC6;
+}
+
+.borrowDetailsOwnerLineRight{
+    text-align: right;
+    float: right;
+    height: 72px;
+    width: calc(100% - 210px);
+}
+
+.borrowDetailsPoolStatus{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.borrowDetailsPoolStatusRed{
+    color: #F95B72;
+    background: #FFDBDB;
+}
+
+.borrowDetailsPoolStatusGrey{
+    background: #EFEFEF;
+    color: #212B4C;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+
+.borrowDetailsPoolDate{
+    text-align: right;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A5ADC6;
+}
+
+.borrowDetailsMainTitle{
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.borrowDetailsRepayArea{
+    margin-top: 16px;
+    background: #FFFFFF;
+    border: 2px solid #F3F5F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+
+.borrowDetailsRepayAreaButton{
+    vertical-align: top;
+    width: 130px;
+    height: 48px;
+    line-height: 48px;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4E3300;
+    float: right;
+}
+
+.borrowDetailsRepayAreaTitle{
+    vertical-align: top;
+    text-align: left;
+    float: left;
+    width: calc(100% - 130px);
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+    display: block;
+}
+
+
+.borrowDetailsRepayAreaDescription{
+    text-align: left;
+    float: left;
+    width: calc(100% - 130px);
+    font-weight: 500;
+    font-size: 14px;
+    color: #7E828F;
+    display: block;
+}
+
+.borrowDetailsRepayAreaSpacerLine{
+    margin-top: 28px;
+    width: 100%;
+    height: 1px;
+    opacity: 0.1;
+    background: #000000;
+}
+
+.borrowDetailsRepayAreaWarning{
+    line-height: 24px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #E6A11C;
+}
+
+.borrowDetailsRepayAreaWarningIcon{
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/alert-circle.png);
+}
+
+.borrowDetailsPoolArea{
+    width: 100%;
+    padding: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 14px rgba(132, 132, 132, 0.1);
+    border-radius: 6px;
+}
+
+
+.borrowDetailsPoolAreaTitle{
+    margin-bottom: 36px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* /#FFFFFF */
+
+    color: #303755;
+}
+
+
+.borrowDetailsPoolLine{
+    margin-bottom: 19px;
+    width: 100%;
+}
+
+.borrowDetailsPoolLineHint{
+    float: left;
+    color: #61709F;
+}
+
+
+.borrowDetailsPoolLineValue{
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.borrowDetailsPoolLineButton{
+    height: 56px;
+    line-height: 52px;
+    width: calc(50% - 7px);
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #F3F5F9;
+    border-radius: 4px;
+}
+
+.borrowDetailsPoolLineButtonRepay{
+    margin-right: 14px;
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+}
+
+.borrowDetailsPoolLineButtons{
+    margin-bottom: 0;
+}
+
+.borrowDetailsPoolHistoryTitle{
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    color: #303755;
+    margin-bottom: 30px;
+}
+
+.borrowDetailsPoolHistoryWrapper{
+    margin-top: 48px;
+    width: 100%;
+}
+
+.borrowDetailsPoolHistoryItemsWrapper{
+    width: 100%;
+    font-size: 0;
+}

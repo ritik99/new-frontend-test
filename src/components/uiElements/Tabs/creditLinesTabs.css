@@ -1,0 +1,120 @@
+.creditLinesTabsLineWrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.creditLinesTabsLine{
+    margin-top: 40px;
+    width: 100%;
+    height: 45px;
+    max-width: 372px;
+    padding: 4px;
+    background: #F4F6FA;
+    border-radius: 4px;
+}
+
+.creditLinesTabItemActive{
+    user-select: none;
+    cursor: pointer;
+    width: 33%;
+    height: 100%;
+    line-height: 37px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.creditLinesTabItem{
+    user-select: none;
+    cursor: pointer;
+    width: 33%;
+    height: 100%;
+    line-height: 37px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9BA5BA;
+}
+
+.creditLinesTabsContentWrapper{
+    width: 100%;
+}
+
+
+.creditLinesAdditionalLine{
+    text-align: right;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.creditLinesAdditionalLineButton{
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid #ECF0F4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 184px;
+    height: 48px;
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #303755;
+}
+
+.creditLinesAdditionalLineSpacer{
+    vertical-align: top;
+    margin-left: 17px;
+    height: 48px;
+    width: 2px;
+    background-color: #ECF0F4;
+}
+
+.creditLinesTable{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.creditLinesTableTop{
+
+    width: 100%;
+    padding: 15px 0; 
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+    border: 2px solid #F3F5F9;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+
+.creditLinesTableTopItem{
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212B4C;
+}
+
+.creditLinesTableTopItem9x{
+    width: 25%;
+}
+
+.creditLinesTableTopItem6x{
+    width: 16.666%;
+}
+
+.creditLinesTitle{
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.creditLinesAdditionalLineButton{
+    margin-right: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}

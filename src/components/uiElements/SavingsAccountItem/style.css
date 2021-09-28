@@ -1,0 +1,50 @@
+.creditLinesSaveItemLine{
+    padding: 15px 0;
+    width: 100%;
+    border-bottom: 2px solid #F3F5F9;
+    border-left: 2px solid #F3F5F9;
+    border-right: 2px solid #F3F5F9;
+}
+
+.creditLinesSaveItemLineSelected{
+    background: #f9fafc;
+}
+
+.creditLinesSaveItemLinePart{
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+
+.creditLinesSaveItemLinePart1{
+    font-weight: 500;
+font-size: 16px;
+color: #212B4C;
+}
+
+.creditLinesSaveItemLinePartHint{
+    width: 100%;
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+height: 16px;
+color: #A5ADC6;
+}
+
+
+
+.creditLinesSaveItemLineIcon{
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+}
+
+.creditLinesSaveItemLinePart1{
+    padding-left: 20px;
+    text-align: left;
+}

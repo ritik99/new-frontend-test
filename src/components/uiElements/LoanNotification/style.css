@@ -1,0 +1,72 @@
+.loanDetailsRepayArea{
+    width: 100%;
+    margin-top: 16px;
+    background: #FFFFFF;
+    border: 2px solid #F3F5F9;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+
+.loanDetailsRepayAreaButton{
+    margin-bottom: 20px;
+    vertical-align: top;
+    padding: 0 20px;
+    height: 48px;
+    line-height: 48px;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4E3300;
+    float: right;
+}
+
+.loanDetailsRepayAreaTitle{
+    vertical-align: top;
+    text-align: left;
+    float: left;
+    min-width: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+    display: block;
+}
+
+
+.loanDetailsRepayAreaDescription{
+    text-align: left;
+    float: left;
+   width: calc(100% - 220px);
+    font-weight: 500;
+    font-size: 14px;
+    color: #7E828F;
+    display: block;
+}
+
+.loanDetailsRepayAreaSpacerLine{
+    margin-top: 28px;
+    width: 100%;
+    height: 1px;
+    opacity: 0.1;
+    background: #000000;
+}
+
+.loanDetailsRepayAreaWarning{
+    line-height: 24px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #E6A11C;
+}
+
+.loanDetailsRepayAreaWarningIcon{
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/alert-circle.png);
+}

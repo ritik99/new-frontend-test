@@ -1,0 +1,225 @@
+.twitterModalWrapper{
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(43, 47, 85, 0.4);
+}
+
+.twitterModalWindow{
+    padding: 46px 56px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width: 454px;
+
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+
+.twitterFormStep{
+    width: 100%;
+}
+
+.twitterFormStepTittle{
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212B4C;
+}
+
+.twitterFormStepTittle2{
+    margin-top: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+font-size: 17px;
+line-height: 25px;
+text-align: center;
+
+/* #7E828F */
+
+color: #7E828F;
+}
+
+
+.twitterFormStepTittle3{
+margin-top: 16px;
+    font-weight: 300;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+
+color: #212B4C;
+border-bottom:1px dashed black;
+margin-bottom: 50px;
+
+}
+
+.twitterFormStepButton1{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(0deg, #32B0ED, #32B0ED), #FFFFFF;
+    border-radius: 4px;
+}
+
+
+
+.twitterFormStepButton2{
+    margin-top: 16px;
+    background: linear-gradient(0deg, #F9FAFC, #F9FAFC), #FFFFFF;
+/* #F3F5F9 */
+width: 100%;
+font-weight: 600;
+font-size: 16px;
+height: 56px;
+line-height: 56px;
+
+border: 2px solid #F3F5F9;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
+.formStepIndicator{
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    color: #7E828F;
+    margin-bottom: 16px;
+}
+
+.twitterFormStepTittleLeft{
+    text-align: left;
+}
+
+
+.formStepInput1{
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #ECF0F4;
+box-sizing: border-box;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+color: #A5ADC6;
+padding: 13px 16px;
+margin-top: 32px;
+margin-bottom: 65px;
+}
+
+
+.twitterFormStepButton3{
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    background: linear-gradient(0deg, #FFD85F, #FFD85F), #FFFFFF;
+border-radius: 4px;
+font-weight: 600;
+font-size: 17px;
+color: #4E3300;
+}
+
+.twitterFormStepTittle2Left{
+    text-align: left;
+}
+
+.twitterFormStepBadge{
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 66px;
+    background: #F4F6FA;
+border-radius: 8px;
+}
+
+.twitterFormStepBadgeIcon1, .twitterFormStepBadgeIcon2, .twitterFormStepBadgeIcon3 {
+    height: 66px;
+    width: 32px;
+    
+}
+
+.twitterFormStepBadgeIcon1{
+
+    background-image: url(./images/user1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitterFormStepBadgeIcon2{
+    width: 22px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-image: url(./images/lines.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitterFormStepBadgeIcon3{
+    background-image: url(./images/user2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitterFormStepBadgeText{
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: top;
+    height: 66px;
+    line-height: 66px;
+    width: calc(100% - 150px);
+    font-weight: 500;
+font-size: 14px;
+color: #4C5A86;
+
+}
+
+.twitterFormStepBadge2{
+    overflow-wrap: break-word;
+    text-align: left;
+    width: 100%;
+    margin: 16px 0;
+    height: auto;
+    padding: 15px 12px;
+    border: 1px solid #ECF0F4;
+box-sizing: border-box;
+border-radius: 4px;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+/* Text/Info */
+
+color: #A5ADC6;
+
+}
+
+.twitterFormStepTweet{
+    margin: 16px 0;
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    border: 1px solid #ECF0F4;
+box-sizing: border-box;
+border-radius: 4px;
+text-align: center;
+}

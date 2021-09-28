@@ -1,0 +1,36 @@
+.tabPlaceholder{
+    padding-top: 65px;
+    width: 100%;
+    text-align: center;
+}
+
+.tabPlaceholderIcon{
+    width: 120px;
+    height: 120px;
+    background-image: url(./images/tabPlaceholderIcon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tabPlaceholderTitle{
+    margin-top: 24px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+
+    text-align: center;
+    color: #131E40;
+}
+
+
+.tabPlaceholderText{
+    margin-top: 8px;
+    width: 100%;
+    max-width: 420px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A5ADC6;
+}

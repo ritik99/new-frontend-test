@@ -1,0 +1,66 @@
+.lenderItemLine{
+    width: 100%;
+    padding: 21px 0;
+    border-bottom: 1px solid#ECF0F4;;
+}
+
+.lenderItemLineLeft{
+    height: 100%;
+    width: 200px;
+}
+
+.lenderItemLineIcon{
+    width: 40px;
+    height: 40px;
+    background-image: url(./images/userIcon.png);
+    float: left;
+}
+
+.lenderItemLineName{
+    padding-left: 16px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-weight: 600;
+    font-size: 16px;
+    color: #212B4C;
+}
+
+.lenderItemLineUsername{
+    padding-left: 16px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #A5ADC6;
+}
+
+.lenderItemLineRight{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    width: calc(100% - 200px);
+    text-align: right;
+}
+
+.lenderItemLinePercent{
+    line-height: 40px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+
+.lenderItemLineValue{
+    font-size: 16px;
+    font-weight: 500;
+    color: #303755;
+
+}
+
+
+.lenderItemLineWrapper{
+    width: 100%;
+}
